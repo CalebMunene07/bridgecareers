@@ -1,34 +1,6 @@
 {
   "version": 4,
   "routes": {
-    "/_global-error": {
-      "routeType": "page",
-      "response": "complete",
-      "compute": "static",
-      "htmlSize": 9417,
-      "experimentalBypassFor": [
-        {
-          "type": "header",
-          "key": "next-action"
-        },
-        {
-          "type": "header",
-          "key": "content-type",
-          "value": "multipart/form-data;.*"
-        }
-      ],
-      "initialRevalidateSeconds": false,
-      "srcRoute": "/_global-error",
-      "dataRoute": "/_global-error.rsc",
-      "allowHeader": [
-        "host",
-        "x-matched-path",
-        "x-prerender-revalidate",
-        "x-prerender-revalidate-if-generated",
-        "x-next-revalidated-tags",
-        "x-next-revalidate-tag-token"
-      ]
-    },
     "/apple-icon.png": {
       "initialHeaders": {
         "cache-control": "public, max-age=0, must-revalidate",
@@ -161,8 +133,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "baae55482400803385973f8ba3cd56b5",
-    "previewModeSigningKey": "f1a46453c7be7e0ecb2196b338ae49a867f7fc07cf420cc0c437807adf78125a",
-    "previewModeEncryptionKey": "e2f007b92c72b6270964fc19b531803ccb5e525e96430360e54d87bf60812e1e"
+    "previewModeId": "2c47805e52e1d8e6df375d855fdf5a66",
+    "previewModeSigningKey": "b9c6270c67b235c2131faa38c8c8924e523ceaa395adbd2f03700dd963e1b17c",
+    "previewModeEncryptionKey": "87defdff7a93888a74772cda05faee396b92020219332ace1d103590bc0a01a6"
   }
 }
